@@ -8,9 +8,9 @@ from streamlit_option_menu import option_menu
 
 #load the models
 
-diabetes_model=pickle.load(open("trained_model02.sav",'rb'))
-parkinson_model=pickle.load(open("trained_model03.sav",'rb'))
-heart_model=pickle.load(open("trained_model01.sav",'rb'))
+diabetes_model=pickle.load(open("social_relevent/trained_model02.sav",'rb'))
+parkinson_model=pickle.load(open("social_relevent/trained_model03.sav",'rb'))
+heart_model=pickle.load(open("social_relevent/trained_model01.sav",'rb'))
 
 with st.sidebar:
     selected=option_menu('MULTIPLE DISEASE PREDICTION WEB APP',
