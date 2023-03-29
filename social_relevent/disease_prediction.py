@@ -2,10 +2,6 @@ import pickle
 import streamlit as st
 from streamlit_option_menu import option_menu
 #for removing the menu and footer
-
-
-Import Streamlit as st
-
 def add_bg_from_url():
     st.markdown(
          f"""
